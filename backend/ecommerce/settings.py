@@ -146,7 +146,7 @@ CORS_ALLOWED_ORIGINS = [
 
 CORS_ALLOW_CREDENTIALS = True
 
-
+CORS_ALLOW_ALL_ORIGINS = True
 
 # REST FRAMEWORK (optional future configs)
 REST_FRAMEWORK = {
@@ -196,4 +196,5 @@ EMAIL_HOST_PASSWORD = 'fris hfvj tbok ixrl'  # Gmail App Password
 
 # Default "from" email
 DEFAULT_FROM_EMAIL = EMAIL_HOST_USER
+
 

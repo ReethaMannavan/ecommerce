@@ -148,6 +148,11 @@ CORS_ALLOW_CREDENTIALS = True
 
 CORS_ALLOW_ALL_ORIGINS = True
 
+CSRF_TRUSTED_ORIGINS = [
+    "https://ecommerce-backend-mje0.onrender.com",
+    "https://nimble-beignet-f07612.netlify.app",
+]
+
 # REST FRAMEWORK (optional future configs)
 REST_FRAMEWORK = {
     "DEFAULT_RENDERER_CLASSES": ["rest_framework.renderers.JSONRenderer"],
@@ -196,5 +201,6 @@ EMAIL_HOST_PASSWORD = 'fris hfvj tbok ixrl'  # Gmail App Password
 
 # Default "from" email
 DEFAULT_FROM_EMAIL = EMAIL_HOST_USER
+
 
 
